@@ -1,0 +1,108 @@
+﻿.characterinfo h2, .characterinfo h3, .characterinfo h4{
+    display: inline;
+    color: #FFF;
+}
+
+.profileimg{
+    width: 100%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.profilecard{
+    width: 60%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 2%;
+}
+
+.profile{
+    font-size: 25px;
+    color: #FFF;
+    padding-right: 5%;
+}
+
+.left{
+    width: 42%;
+    float: left;
+    margin-right: 2%;
+}
+
+.left h2 {
+    font-size: 22px;
+}
+
+.left span{
+    font-size: 22px;
+}
+
+.right{
+    width: 34%;
+    border: solid;
+    border-color: #FFF;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.right span{
+    font-size: 20px;
+}
+
+.right h4{
+    font-size: 20px;
+    color: #f2d900;
+}
+
+.even{
+    background-color: #505050;
+}
+
+.left li, .right li{
+    padding: 2%;
+}
+
+.left ul, .right ul{
+    padding: 0;
+    list-style: none;
+}
+
+.leftsidebar{
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+
+.leftsidebar h3{
+    color: #FFF;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 700px) {
+    .profileimg{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .left{
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .right{
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+
+    .profilecard{
+        width: 100%;
+    }
+
+    .leftsidebar{
+        width: 100%;
+    }
+}
+
