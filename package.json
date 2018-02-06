@@ -14,7 +14,6 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14"
   },
-  "main": "bundle.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -22,4 +21,5 @@
     "eject": "react-scripts eject"
   },
   "homepage": "http://www.melissadagley.com/starwarsapp"
+  
 }

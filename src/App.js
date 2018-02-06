@@ -19,7 +19,6 @@ const client = new ApolloClient({
     cache: new InMemoryCache()
 });
 
-var root = 'http://www.melissadagley.com/starwarsapp';
 
 class App extends Component {
     displayName: 'App';
@@ -30,8 +29,8 @@ class App extends Component {
                <div id="wrapper">
                   <div id="menubar">
                      <ul>
-                        <li><NavLink exact to={root+"/"}>Home</NavLink></li>
-                        <li><NavLink exact to={root+"/movies"}>Browse Movies</NavLink></li>
+                        <li><NavLink exact to="/">Home</NavLink></li>
+                        <li><NavLink exact to="/movies">Browse Movies</NavLink></li>
                      </ul>
                   </div>
                   <Route exact path="/" component={HomePage}/>
