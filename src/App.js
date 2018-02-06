@@ -15,7 +15,7 @@ import CharacterList from "./CharacterList";
 import CharacterPage from "./CharacterPage";
 
 const client = new ApolloClient({
-    link: new HttpLink({ uri: 'http://swapi.apis.guru/' }),
+    link: new HttpLink({ uri: 'https://swapi.apis.guru/' }),
     cache: new InMemoryCache()
 });
 
